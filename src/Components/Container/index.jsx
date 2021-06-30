@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import Titulo from "../Titulo";
 import Conta from "../Conta";
+import Extrato from "../Extrato";
 
 import {fundoClaro} from '../UI/variaveis'
 
@@ -27,6 +28,7 @@ export default () => {
       <Titulo>Olá Fulano!</Titulo>
       <Conteudo>
         <Conta />
+        <Extrato />
       </Conteudo>
     </Container>
   );
