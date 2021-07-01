@@ -8,7 +8,7 @@ import Extrato from "../Extrato";
 import {fundoClaro} from '../UI/variaveis'
 
 const Container = styled.div`
-  background-color: ${fundoClaro};
+  background-color: ${({theme}) => theme.body};
   min-height: 90vh;
   padding: 0px 15vw;
 `
